@@ -1,0 +1,328 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #F2ECE6;
+}
+
+.container-help {
+    position: relative;
+    width: 1360px;
+    height: 480px;
+    align-items: center;
+}
+
+.search_block {
+position: relative;
+width: 1360px;
+height: 480px;
+left: calc(50% - 1360px/2);
+top: calc(60% - 480px/2 + 59px);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(image.png);
+border-radius: 12px;
+}
+
+.search {
+    width: 649px;
+    height: 54.55px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 26.12%;
+    right: 26.16%;
+    top: 53.49%;
+    bottom: 35.15%;
+    background: #FFFFFF;
+    border-radius: 38px;
+}
+
+.search_block img {
+    position: absolute;
+    width: 1360px;
+    height: 480px;
+    left: calc(50% - 1360px/2);
+    top: calc(38% - 480px/2 + 59px);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(image.png);
+    border-radius: 12px;
+    z-index: 1;
+}
+
+.can_help h1 {
+    position: absolute;
+    width: 467px;
+    left: 36%;
+    top: 52%;
+    height: 72px;
+    /* Desktop/H1-Main */
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    z-index: 999;
+}
+
+.search_form input {
+    width: 649px;
+    height:54.55px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 30.12%;
+    top: 70%;
+    padding: 26px;
+    background: #FFFFFF;
+    border-radius: 38px;
+    z-index: 999;
+}
+
+.search_button {
+width: 164px;
+height:55px;
+position: absolute;
+left: 61.82%;
+right: 18.12%;
+top: 70%;
+bottom: 35.1%;
+background: linear-gradient(272.58deg, #0957C3 -5.44%, #0957C3 33.37%, #5085CF 73.54%, #81ACDB 103.88%);
+border-radius: 84px;
+color: #FFFFFF;
+z-index: 999;
+cursor: pointer;
+}
+
+::placeholder  {
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+    right: 26.16%;
+    top: 36%;
+    bottom: 35.15%;
+    background: #FFFFFF;
+    border-radius: 38px;
+}
+
+/*Second block start*/
+
+.lorem_information {
+    width: 1360px;
+    height: 200px;
+    margin-top: 236px;
+}
+
+.lorem_information h2 {
+    width: 554px;
+    height: 36px;
+    /* Desktop/H2-Medium */
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #4A4847;
+}
+
+.lorem_information p {
+    width: 870px;
+    height: 48px;
+    margin-top: 12px;
+    /* Desktop/Body-Text */
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #6F6F6F;
+}
+/*Second block end*/
+
+
+/*Therd block start*/
+.boxes {
+    width: 1360px;
+}
+
+.boxes_first {
+    display: flex;
+}
+
+.boxes_second{
+    display: flex;
+}
+
+.boxes_first a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*align-items: flex-start;*/
+    /*padding: 48px 0px;*/
+    margin: 16px;
+    width: 328px;
+    height: 122px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.boxes_second a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    width: 328px;
+    height: 122px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-decoration: none;
+}
+/*
+.boxes_first a:nth-last-child(3) {
+    background: #E6DCD3;
+}  
+*/
+.boxes_first a:hover {
+    background: #E6DCD3;
+}
+
+.boxes_second a:hover {
+    background: #E6DCD3;
+}
+
+/*Therd block end*/
+
+/*Foth block start*/
+.bunner_support {
+    position: relative;
+    width: 1360px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.bunner_block {
+    position: absolute;
+    width: 1360px;
+    height: 480px;
+    left: 0px;
+    /* top: 0; */
+    background: url(image.png);
+    border-radius: 12px;
+}
+
+.bunner_block img {
+position: absolute;
+width: 1360px;
+height: 480px;
+left: 0px;
+/*top: 516px;*/
+background: url(image.png);
+border-radius: 12px;
+}
+
+.get_support {
+    position: relative;
+}
+
+.get_support h2 {
+    position: absolute;
+    top: 200px;
+    left: 136px;
+    /* Desktop/H2-Medium */
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.get_support p {
+    position: absolute;
+    top: 240px;
+    left: 136px;
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.contact_button {
+    position: absolute;
+    top: 300px;
+    left: 136px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 153px;
+    height: 44px;
+    background: linear-gradient(272.58deg, #0957C3 -5.44%, #0957C3 33.37%, #5085CF 73.54%, #81ACDB 103.88%);
+    border-radius: 84px;
+    cursor: pointer;
+}
+/*Foth block end*/
+
+
+/*Fifth block start*/
+.warrenty {
+    position: relative;
+    top: 500px;
+    width: 1360px;
+}
+
+.warrenty_block {
+    display: flex;
+}
+
+.warrenty_block a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 48px 0px;
+    width: 442px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.warrenty_lorem {
+    display: flex;
+    flex-direction: row;
+}
+
+.warrenty_lorem a {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 48px 0px;
+    width: 1360px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+/*Fifth block end*/
